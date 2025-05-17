@@ -1,17 +1,17 @@
-# animation
+# surgeRiver_animation
 
 This project was created with [Haiku](https://haiku.ai).
 
 ## Install
 
 ```
-$ haiku install animation
+$ haiku install surgeRiver_animation
 ```
 
 ## Usage
 
 ```
-var animation = require('@haiku/haiku-animation')
+var surgeRiver_animation = require('@haiku/haiku-surgeriver_animation')
 ```
 
 ## Copyright

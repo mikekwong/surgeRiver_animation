@@ -1,3 +1,3 @@
 var HaikuAngularAdapter = require('@haiku/core/dom/angular')
-var HaikuAngularModule = HaikuAngularAdapter('animation', require('./dom'))
+var HaikuAngularModule = HaikuAngularAdapter('surge-river_animation', require('./dom'))
 module.exports = HaikuAngularModule

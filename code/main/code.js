@@ -1,13 +1,13 @@
 var Haiku = require("@haiku/core");
 module.exports = {
   metadata: {
+    uuid: "HAIKU_SHARE_UUID",
     version: "0.0.0",
-    username: "user@haiku.ai",
     organization: "Haiku",
     project: "animation",
     branch: "master",
     folder: "/Users/mikewong/Documents/SurgeRiver/animation",
-    uuid: "HAIKU_SHARE_UUID",
+    username: "user@haiku.ai",
     root: "HAIKU_CDN_PROJECT_ROOT",
     core: "5.1.2",
     title: "Main",
@@ -19,25 +19,30 @@ module.exports = {
   eventHandlers: {},
   timelines: {
     Default: {
+      "haiku:Main-03757d2ca1026e0a": {
+        "style.WebkitTapHighlightColor": "rgba(0,0,0,0)",
+        "style.position": "relative",
+        "style.overflowX": "hidden",
+        "style.overflowY": "hidden",
+        "sizeAbsolute.x": 207.252,
+        "sizeAbsolute.y": 57.931,
+        "sizeMode.x": 1,
+        "sizeMode.y": 1,
+        "sizeMode.z": 1
+      },
       "haiku:Logo-Blue-52d2eb2cccfa261b": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 199.655,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 240.373,
-        "style.overflow": "visible",
+        "translation.y": 199.655,
         "sizeAbsolute.x": 15.272197723388672,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 18.663002014160156,
         "sizeMode.y": 1,
         "style.zIndex": 1
-      },
-      "haiku:Group-0093eb1bd968e430": {
-        fill: "none",
-        opacity: 1,
-        "translation.x": -159.389999,
-        "translation.y": -20.423
       },
       "haiku:Group-52a32606ffb86d45": {
         fill: "none",
@@ -51,13 +56,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-f2790296fff8b639": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 202.205,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 256.348,
-        "style.overflow": "visible",
+        "translation.y": 202.205,
         "sizeAbsolute.x": 12.396797180175781,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.563301086425781,
@@ -76,13 +81,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-3932eb807adbd32c": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 201.933,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 270.879,
-        "style.overflow": "visible",
+        "translation.y": 201.933,
         "sizeAbsolute.x": 11.203102111816406,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.563199996948242,
@@ -101,13 +106,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-717824ef027df9bb": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 203.141,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 283.268,
-        "style.overflow": "visible",
+        "translation.y": 203.141,
         "sizeAbsolute.x": 13.943000793457031,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 21.7825984954834,
@@ -126,13 +131,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-05e4f33b3b7a5092": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 202.069,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 297.323,
-        "style.overflow": "visible",
+        "translation.y": 202.069,
         "sizeAbsolute.x": 12.831008911132812,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.834501266479492,
@@ -151,13 +156,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-ab3ae4d393bd6954": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 199.628,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 319.297,
-        "style.overflow": "visible",
+        "translation.y": 199.628,
         "sizeAbsolute.x": 15.951004028320312,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 18.174699783325195,
@@ -176,13 +181,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-1e017dd28d4c9785": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 199.628,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 330.927,
-        "style.overflow": "visible",
+        "translation.y": 199.628,
         "sizeAbsolute.x": 3.878997802734375,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 18.174699783325195,
@@ -201,29 +206,24 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-dcb0568ad3c3e8b4": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 202.069,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 341.51,
-        "style.overflow": "visible",
+        "translation.y": 202.069,
         "sizeAbsolute.x": 14.240997314453125,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.291999816894531,
         "sizeMode.y": 1,
         "style.zIndex": 3
       },
-      "haiku:Main-03757d2ca1026e0a": {
-        "style.WebkitTapHighlightColor": "rgba(0,0,0,0)",
-        "style.position": "relative",
-        "style.overflowX": "hidden",
-        "style.overflowY": "hidden",
-        "sizeAbsolute.x": 207.252,
-        "sizeAbsolute.y": 57.931,
-        "sizeMode.x": 1,
-        "sizeMode.y": 1,
-        "sizeMode.z": 1
+      "haiku:Group-0093eb1bd968e430": {
+        fill: "none",
+        opacity: 1,
+        "translation.x": -159.389999,
+        "translation.y": -20.423
       },
       "haiku:Path-20cc9c1acafc4e11": {
         d:
@@ -231,13 +231,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-8cfb8408cdc3e230": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 202.069,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 355.151,
-        "style.overflow": "visible",
+        "translation.y": 202.069,
         "sizeAbsolute.x": 12.831008911132812,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.834501266479492,
@@ -256,13 +256,13 @@ module.exports = {
         fill: "#0062FF"
       },
       "haiku:Logo-Blue-f75f25bc0031f99e": {
+        "style.overflow": "visible",
         "style.position": "absolute",
-        "translation.y": 201.933,
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "translation.x": 369.398,
-        "style.overflow": "visible",
+        "translation.y": 201.933,
         "sizeAbsolute.x": 11.2030029296875,
         "sizeMode.x": 1,
         "sizeAbsolute.y": 13.563199996948242,
@@ -339,18 +339,18 @@ module.exports = {
         "translation.y": -190.540649
       },
       "haiku:Logo-Blue-ca145c4e49cf4e58": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.margin": "0",
         "translation.x": 32.535909235580725,
         "translation.y": 42.50878358129778,
         "rotation.z": {
           "0": { value: 0.005, edited: true, curve: "easeInOutQuad" },
-          "1667": { value: 0.3, edited: true, curve: "easeInOutQuad" },
+          "1667": { value: 0.25, edited: true, curve: "easeInOutQuad" },
           "3333": { value: 0, edited: true }
         },
         "style.overflow": "visible",
         "style.position": "absolute",
-        "origin.x": 0.5,
+        "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 19.978187561035156,
@@ -360,18 +360,18 @@ module.exports = {
         "style.zIndex": 1
       },
       "haiku:Logo-Blue-62e065fa52040c7f": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.margin": "0",
         "translation.x": 44.11302611898303,
         "translation.y": 27.755841914288535,
         "rotation.z": {
           "0": { value: 0.005, edited: true, curve: "easeInOutQuad" },
-          "1667": { value: 0.3, edited: true, curve: "easeInOutQuad" },
+          "1667": { value: 0.25, edited: true, curve: "easeInOutQuad" },
           "3333": { value: 0, edited: true }
         },
         "style.overflow": "visible",
         "style.position": "absolute",
-        "origin.x": 0.5,
+        "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 21.970640182495117,
@@ -381,18 +381,18 @@ module.exports = {
         "style.zIndex": 2
       },
       "haiku:Logo-Blue-db5b8332636acff6": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.margin": "0",
         "translation.x": 29.348944596222395,
         "translation.y": 16.078768496407605,
         "rotation.z": {
           "0": { value: 0.005, edited: true, curve: "easeInOutQuad" },
-          "1667": { value: 0.3, edited: true, curve: "easeInOutQuad" },
+          "1667": { value: 0.25, edited: true, curve: "easeInOutQuad" },
           "3333": { value: 0, edited: true }
         },
         "style.overflow": "visible",
         "style.position": "absolute",
-        "origin.x": 0.5,
+        "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 19.97825813293457,
@@ -402,18 +402,18 @@ module.exports = {
         "style.zIndex": 3
       },
       "haiku:Logo-Blue-557fa4927fe65851": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.margin": "0",
         "translation.x": 17.72775668075377,
         "translation.y": 30.90332486997289,
         "rotation.z": {
           "0": { value: 0.005, edited: true, curve: "easeInOutQuad" },
-          "1667": { value: 0.3, edited: true, curve: "easeInOutQuad" },
+          "1667": { value: 0.25, edited: true, curve: "easeInOutQuad" },
           "3333": { value: 0, edited: true }
         },
         "style.overflow": "visible",
         "style.position": "absolute",
-        "origin.x": 0.5,
+        "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 21.970643997192383,
@@ -423,13 +423,13 @@ module.exports = {
         "style.zIndex": 4
       },
       "haiku:Surge-35414bec5b70dc5b": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.padding": "0",
         "translation.x": 99.28580165863036,
         "translation.y": 31.471400127410885,
         "style.position": "absolute",
         "style.margin": "0",
-        "origin.x": 0.5,
+        "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 71.00160331726073,
         "sizeMode.x": 1,
@@ -438,13 +438,13 @@ module.exports = {
         "style.zIndex": 5
       },
       "haiku:River-aa2ae62397d2eba8": {
+        "origin.x": 0.5,
         "origin.y": 0.5,
-        "style.padding": "0",
         "translation.x": 174.20800173950195,
         "translation.y": 29.057800262451174,
         "style.position": "absolute",
         "style.margin": "0",
-        "origin.x": 0.5,
+        "style.padding": "0",
         "style.border": "0",
         "sizeAbsolute.x": 63.678003479003905,
         "sizeMode.x": 1,

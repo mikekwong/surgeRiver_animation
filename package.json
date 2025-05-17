@@ -3,15 +3,15 @@
     "version": "0.0.0",
     "username": "user@haiku.ai",
     "organization": "Haiku",
-    "project": "animation",
+    "project": "surgeRiver_animation",
     "branch": "master",
-    "folder": "/Users/mikewong/Documents/SurgeRiver/animation",
+    "folder": "/Users/mikewong/Documents/SurgeRiver/surgeRiver_animation",
     "uuid": "HAIKU_SHARE_UUID",
     "root": "HAIKU_CDN_PROJECT_ROOT",
     "core": "5.1.2"
   },
   "version": "0.0.0",
-  "name": "@haiku/haiku-animation",
+  "name": "@haiku/haiku-surgeriver_animation",
   "dependencies": {
     "@haiku/core": "^5.1.2"
   }
